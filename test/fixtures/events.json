@@ -25,6 +25,128 @@
         "endTime": null
       }
     ],
+    "sessions": [
+      {
+        "name": "session1",
+        "tickets": [
+          {
+            "type": "parent-guardian",
+            "name": "parent ticket",
+            "quantity": "10"
+          },
+          {
+            "type": "ninja",
+            "name": "ninja ticket",
+            "quantity": "10"
+          },
+          {
+            "type": "other",
+            "name": "other ticket",
+            "quantity": "10"
+          },
+          {
+            "type": "mentor",
+            "name": "mentor ticket",
+            "quantity": "10"
+          }
+        ]
+      },
+      {
+        "name": "session2",
+        "tickets": [
+          {
+            "type": "parent-guardian",
+            "name": "parent ticket",
+            "quantity": "10"
+          },
+          {
+            "type": "ninja",
+            "name": "ninja ticket",
+            "quantity": "10"
+          },
+          {
+            "type": "other",
+            "name": "other ticket",
+            "quantity": "10"
+          },
+          {
+            "type": "mentor",
+            "name": "mentor ticket",
+            "quantity": "10"
+          }
+        ]
+      }
+    ],
+    "ticketApproval": false
+  }
+  ,{
+    "name": "test event 1",
+    "country": {
+      "countryName": "Ireland",
+      "alpha2": "IE"
+    },
+    "city": {
+      "nameWithHierarchy": "Dublin"
+    },
+    "address": "some address in Ireland",
+    "type": "one-off",
+    "description": "test event description",
+    "dojoId": 120,
+    "position": {
+      "lat": 45,
+      "lng": 12
+    },
+    "public": true,
+    "status": "published",
+    "recurringType": "weekly",
+    "dates": [
+      {
+        "startTime": null,
+        "endTime": null
+      }
+    ],
+    "sessions": [
+      {
+        "name": "session1",
+        "tickets": [
+          {
+            "type": "parent-guardian",
+            "name": "parent ticket",
+            "quantity": "0"
+          }
+        ]
+      }
+    ],
+    "ticketApproval": false
+  }
+  ,{
+    "name": "test event 2",
+    "country": {
+      "countryName": "France",
+      "alpha2": "FR"
+    },
+    "city": {
+      "nameWithHierarchy": "Lyon"
+    },
+    "address": "some address in France",
+    "type": "one-off",
+    "description": "test event description",
+    "dojoId": 120,
+    "position": {
+      "lat": 45,
+      "lng": 12
+    },
+    "public": true,
+    "status": "saved",
+    "recurringType": "weekly",
+    "dates": [
+      {
+        "startTime": null,
+        "endTime": null
+      }
+    ],
+    "sessions": [
+    ],
     "ticketApproval": false
   }
 ]
